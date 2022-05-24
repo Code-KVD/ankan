@@ -2,6 +2,8 @@ import './App.css';
 import India from './pages/India';
 import Sports from './pages/Sports';
 import ScienceAndTech from './pages/ScienceAndTech';
+import International from './pages/International';
+import Governance from './pages/Governance';
 function App() {
 
 
@@ -10,7 +12,9 @@ function App() {
     <>
        {/* <India></India> */}
        {/* <Sports></Sports> */}
-       <ScienceAndTech></ScienceAndTech>
+       {/* <ScienceAndTech></ScienceAndTech> */}
+       <International></International>
+       {/* <Governance></Governance> */}
     </>
   );
 }
